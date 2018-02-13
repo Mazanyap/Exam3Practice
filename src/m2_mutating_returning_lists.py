@@ -37,7 +37,7 @@ def main():
 def run_test_doubler():
     """ Tests the    doubler    function. """
     # ------------------------------------------------------------------
-    # TODO: 2. Implement this TEST function.
+    # Done: 2. Implement this TEST function.
     #   It TESTS the  doubler  function defined below.
     #   Include at least ** 1 ** ADDITIONAL test beyond those we wrote.
     #
@@ -122,10 +122,18 @@ def doubler(list1, list2):
         :type list1: list of int
         :type list2: list of int
     """
+    list3 = []
 
-    
+    for j in range(len(list1)):
+        list1[j] = list1[j] * 2
+
+    for k in range(len(list2)):
+        list3 += [list2[k] * 2]
+
+    return list3
+
     # ------------------------------------------------------------------
-    # TODO: 3. Implement and test this function.
+    # Done: 3. Implement and test this function.
     #   Note that you should write its TEST function first (above).
     # ------------------------------------------------------------------
     # ------------------------------------------------------------------

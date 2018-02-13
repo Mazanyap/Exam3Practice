@@ -414,11 +414,11 @@ def practice_problem4d(sequence):
     for j in range(len(sequence) - 1):
         compared = sequence[j + 1]
         if (compared != sequence[j]) & (is_prime(sequence[j + 1]) & is_prime(sequence[j])):
-           sum += sequence[j] 
+           sum += sequence[j]
     return sum
 
     ####################################################################
-    # TODO: 5. Implement and test this function.
+    # Done: 5. Implement and test this function.
     #     The testing code is already written for you (above).
     ####################################################################
     # DIFFICULTY AND TIME RATINGS (see top of this file for explanation)
